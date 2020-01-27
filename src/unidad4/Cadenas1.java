@@ -44,18 +44,33 @@ public class Cadenas1 {
 		if (vocal_a>0) {
 			System.out.println("se repite "+ vocal_a+" veces la vocal \"a\"");
 			}
+		else {
+			System.out.println("la vocal \"a\" no se repite");
+		}
 		if (vocal_e>0) {
 			System.out.println("se repite "+ vocal_e+" veces la vocal e");
 			}
+		else {
+			System.out.println("la vocal \"e\" no se repite");
+		}
 		if (vocal_i>0) {
 			System.out.println("se repite "+ vocal_i+" veces la vocal i");
 			}
+		else {
+			System.out.println("la vocal \"i\" no se repite");
+		}
 		if (vocal_o>0) {
 			System.out.println("se repite "+ vocal_o+" veces la vocal o");
 			}
+		else {
+			System.out.println("la vocal \"o\" no se repite");
+		}
 		if (vocal_u>0) {
 			System.out.println("se repite "+ vocal_u+" veces la vocal u");
 			}
+		else {
+			System.out.println("la vocal \"u\" no se repite");
+		}
 		
 	}
 
