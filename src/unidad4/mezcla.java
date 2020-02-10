@@ -83,22 +83,7 @@ public class mezcla
 				}
 			}
 		}
-		/*int aux=0;
-		for (int i=0;i<vector.length;i++)		//ordeno el vector resultante de menor a mayor
-		{
-			for (int j=1;j<vector.length;j++) 
-			{
-				
-				if (vector[j]<vector[j-1])
-				{
-					aux=vector[j-1];
-					vector[j-1]=vector[j];
-					vector[j]=aux;
-				}
-			}
-			
-			
-		}*/
+		
 		
 		return ordenados(vector);
 	}
