@@ -83,7 +83,7 @@ public class mezcla
 				}
 			}
 		}
-		int aux=0;
+		/*int aux=0;
 		for (int i=0;i<vector.length;i++)		//ordeno el vector resultante de menor a mayor
 		{
 			for (int j=1;j<vector.length;j++) 
@@ -98,9 +98,9 @@ public class mezcla
 			}
 			
 			
-		}
+		}*/
 		
-		return vector;
+		return ordenados(vector);
 	}
 
 }
