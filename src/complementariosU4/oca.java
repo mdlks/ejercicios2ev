@@ -1,9 +1,9 @@
 package complementariosU4;
 
-import java.util.Map;
+
 import java.util.Random;
 import java.util.Scanner;
-import java.util.TreeMap;
+
 
 public class oca
 {
@@ -128,7 +128,7 @@ public class oca
 		nombres_jugadores[0]=sc.nextLine();
 		System.out.println("indica nombre jugador 2: ");
 		nombres_jugadores[1]=sc.nextLine();
-		
+		sc.close();
 	}
 	
 	public static int quien_comienza( String[]nombres_jugadores)  //empieza el jugador con la mayor tirada
@@ -193,7 +193,7 @@ public class oca
 		System.out.println("dado 1= "+dado1);
 		System.out.println("dado 2= "+dado2);
 		System.out.println();
-		
+		sc.close();
 		return dado1+dado2;
 	}
 	
