@@ -4,10 +4,6 @@ public class Pokemon
 {
 	private String nombre;
 	private String elemento;
-	public void setSalud(int salud) {
-		this.salud = salud;
-	}
-
 	private int salud;
 
 	public Pokemon(String nombre, String elemento, int salud)
@@ -29,4 +25,7 @@ public class Pokemon
 		return salud;
 	}
 	
+	public void setSalud(int salud) {
+		this.salud = salud;
+	}
 }
